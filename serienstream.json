@@ -1,0 +1,43 @@
+  "name": "Serienstream",
+  "plugin": "plugin.video.xstream",
+  "priority": 100,
+  "provider": "Serienstream",
+  "is_resolvable": "true",
+  "assert": {
+    "play_episode": [
+      "showname",
+      "season",
+      "episode"
+    ],
+    "search_episode": [
+      "showname"
+    ]
+  },
+  "play_episode": [
+    "plugin://plugin.video.xstream/?site=serienstream&function=showSearch",
+    {
+      "keyboard": "{showname}"
+    },
+    {
+      "label": "(?i).*{showname}.*"
+    },
+    {
+      "return": "true",
+      "season": "{season}",
+      "episode": "{episode}"
+    },
+    {
+      "season": "{season}"
+    },
+    {
+      "season": "{season}",
+      "episode": "{episode}"
+    }
+  ],
+  "search_episode": [
+    "plugin://plugin.video.xstream/?site=serienstream&function=showSearch",
+    {
+      "keyboard": "{showname}"
+    }
+  ]
+}
