@@ -1,8 +1,8 @@
 {
-  "name": "xStream+",
+  "name": "Streamdom",
   "plugin": "plugin.video.xstream",
   "priority": 100,
-  "provider": "xStream+",
+  "provider": "Streamdom",
   "is_resolvable": "true",
   "assert": {
     "play_movie": [
