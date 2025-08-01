@@ -25,10 +25,7 @@
   ],
   "play_episode": [
     "plugin://plugin.video.xship/?action=tvshowsSearch",
-    {
-    "play_episode": [
-    "plugin://plugin.video.xstream/?site=serienstream&function=showSearch",
-    {
+       {
       "keyboard": "{showname}"
     },
     {
