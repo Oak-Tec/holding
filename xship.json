@@ -15,9 +15,9 @@
     ]
   },
   "play_movie": [
-    "plugin://plugin.video.xship/?action=moviesSearch&title={title}"
+    "plugin://plugin.video.xship/?action=moviessearchNew&table=&title={title}"
   ],
   "play_episode": [
-    "plugin://plugin.video.xship/?action=tvshowsSearch&showname={showname}&season={season}&episode={episode}"
+    "plugin://plugin.video.xship/?action=tvshowssearchNew&table&showname={showname}&season={season}&episode={episode}"
   ]
 }
