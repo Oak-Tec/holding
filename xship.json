@@ -21,27 +21,7 @@
     "plugin://plugin.video.xship/?action=tvshowsSearch&showname={showname}&season={season}&episode={episode}"
   ]
 }
-      "episode": "{episode}"
-    },
-    {
-      "season": "{season}"
-    },
-    {
-      "episode": "{episode}"
-    }
-  ]
-}
-      "episode": "{episode}"
-    },
-    {
-      "season": "{season}"
-    },
-    {
-      "episode": "{episode}"
-    }
-  ]
-}
-      "episode": "{episode}"
+  "episode": "{episode}"
     },
     {
       "season": "{season}"
