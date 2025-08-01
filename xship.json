@@ -50,6 +50,16 @@
       "season": "{season}"
     },
     {
+      "episode": "{episode}"
+    }
+  ]
+}
+      "episode": "{episode}"
+    },
+    {
+      "season": "{season}"
+    },
+    {
       "season": "{season}",
       "episode": "{episode}"
     }
