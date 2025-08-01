@@ -1,0 +1,57 @@
+{
+  "name": "xShip",
+  "plugin": "plugin.video.xship",
+  "priority": 100,
+  "provider": "xShip",
+  "is_resolvable": "true",
+  "assert": {
+    "play_movie": [
+      "title"
+    ],
+    "play_episode": [
+      "title",
+      "season_number",
+      "episode_number"
+    ],
+    "search_movie": [
+      "title"
+    ],
+    "search_series": [
+      "title"
+    ]
+  },
+  "play_movie": [
+    "plugin://plugin.video.xship/?function=playMovie",
+    {
+      "movie_id": "{movie_id}",
+      "autoplay": "true"
+    },
+    {
+      "label": "(?i).*{title}.*"
+    }
+  ],
+  "play_episode": [
+    "plugin://plugin.video.xship/?function=playEpisode",
+    {
+      "series_id": "{series_id}",
+      "season_number": "{season_number}",
+      "episode_number": "{episode_number}",
+      "autoplay": "true"
+    },
+    {
+      "label": "(?i).*{title}.*"
+    }
+  ],
+  "search_movie": [
+    "plugin://plugin.video.xship/?function=searchMovie",
+    {
+      "search": "{title}"
+    }
+  ],
+  "search_series": [
+    "plugin://plugin.video.xship/?function=searchSeries",
+    {
+      "search": "{title}"
+    }
+  ]
+}
