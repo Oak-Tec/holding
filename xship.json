@@ -15,9 +15,28 @@
     ]
   },
   "play_movie": [
-    "plugin://plugin.video.xship/?action=New&table=movies&title={title}"
+    "plugin://plugin.video.xship/?action=New&table=movies"
+    {
+      "keyboard": "{title}"
+    },
+    {
+      "label": "(?i).*{title}.*"
+    }
   ],
   "play_episode": [
-    "plugin://plugin.video.xship/?action=New&table=tvshows&showname={showname}&season={season}&episode={episode}"
+    "plugin://plugin.video.xship/?action=New&table=tvshows"
+    {
+      "return": true,
+      "season": "{season}",
+      "episode": "{episode}"
+    },
+    {
+      "season": "{season}"
+    },
+    {
+      "episode": "{episode}"
+    }
+  ]
+}
   ]
 }
