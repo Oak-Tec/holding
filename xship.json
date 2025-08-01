@@ -21,7 +21,7 @@
     ]
   },
   "play_movie": [
-    "plugin://plugin.video.xship/?function=playMovie",
+    "plugin://plugin.video.xship/?action=moviesSearch",
     {
       "movie_id": "{movie_id}",
       "autoplay": "true"
@@ -31,7 +31,7 @@
     }
   ],
   "play_episode": [
-    "plugin://plugin.video.xship/?function=playEpisode",
+    "plugin://plugin.video.xship/?action=tvshowsSearch",
     {
       "series_id": "{series_id}",
       "season_number": "{season_number}",
@@ -43,13 +43,13 @@
     }
   ],
   "search_movie": [
-    "plugin://plugin.video.xship/?function=searchMovie",
+    "plugin://plugin.video.xship/?action=tvshowsSearch",
     {
       "search": "{title}"
     }
   ],
   "search_series": [
-    "plugin://plugin.video.xship/?function=searchSeries",
+    "plugin://plugin.video.xship/?action=searhtvshowsSearch",
     {
       "search": "{title}"
     }
