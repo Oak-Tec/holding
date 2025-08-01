@@ -8,23 +8,16 @@
     "play_movie": [
       "title"
     ],
-    "play_episode": [
-      "title",
-      "season_number",
-      "episode_number"
-    ],
-    "search_movie": [
-      "title"
-    ],
-    "search_series": [
-      "title"
-    ]
+      "play_episode": [
+      "showname",
+      "season",
+      "episode"
+    ],
   },
   "play_movie": [
     "plugin://plugin.video.xship/?action=moviesSearch",
-    {
-      "movie_id": "{movie_id}",
-      "autoplay": "true"
+   {
+      "keyboard": "{title}"
     },
     {
       "label": "(?i).*{title}.*"
@@ -33,25 +26,27 @@
   "play_episode": [
     "plugin://plugin.video.xship/?action=tvshowsSearch",
     {
-      "series_id": "{series_id}",
-      "season_number": "{season_number}",
-      "episode_number": "{episode_number}",
-      "autoplay": "true"
+        {
+      "keyboard": "{showname}"
+    },
+    {
+      "label": "(?i).*{showname}.*"
+    },
+    {
+      "return": "true",
+      "season": "{season}",
+      "episode": "{episode}"
+    },
+    {
+      "season": "{season}"
+    },
+    {
+      "season": "{season}",
+      "episode": "{episode}"
+    }
     },
     {
       "label": "(?i).*{title}.*"
     }
   ],
-  "search_movie": [
-    "plugin://plugin.video.xship/?action=tvshowsSearch",
-    {
-      "search": "{title}"
-    }
-  ],
-  "search_series": [
-    "plugin://plugin.video.xship/?action=searhtvshowsSearch",
-    {
-      "search": "{title}"
-    }
-  ]
 }
