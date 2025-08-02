@@ -15,7 +15,7 @@
     ]
   },
   "play_movie": [
-    "plugin://plugin.video.xship/?action=New&table=movies"
+    "plugin://plugin.xship/?action=searchNew&table=movie&query=$INFO[Skin.String(SearchInputEncoded)]"
     {
       "keyboard": "{title}"
     },
@@ -24,7 +24,7 @@
     }
   ],
   "play_episode": [
-    "plugin://plugin.video.xship/?action=New&table=tvshows"
+    "plugin://plugin.xship/?action=searchNew&table=tvshows&query=$INFO[Skin.String(SearchInputEncoded)]"
     {
       "return": true,
       "season": "{season}",
