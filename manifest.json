@@ -36,7 +36,8 @@
       "formats": ["mkv"],
       "logo": "https://uhdmovies.cat/wp-content/uploads/2021/03/cropped-output-onlinepngtools-1-32x32.png",
       "contentLanguage": [
-        "de"
+        "de",
+        "en"
       ]
     },
     {
@@ -53,7 +54,9 @@
       "formats": ["mkv"],
       "logo": "https://moviesmod.tube/wp-content/uploads/2022/10/moviesmod.png",
       "contentLanguage": [
-        "dw"
+        "de",
+        "en",
+        "jp"
       ]
     },
     {
@@ -88,37 +91,36 @@
       "formats": ["mkv"],
       "logo": "https://image.similarpng.com/file/similarpng/very-thumbnail/2021/05/Letter-D-logo-design-template-with-geometric-shape-style-on-transparent-background-PNG.png",
       "contentLanguage": [
-        "en"
+        "de"
       ]
     },
     {
-      "id": "watch32",
-      "name": "Watch32",
-      "description": "Lightweight M3U8 Links",
-      "version": "1.0.1",
-      "author": "Nuvio Team",
+      "id": "einschalten",
+      "name": "Einschalten",
+      "description": "Top Movies",
+      "version": "1.0.0",
+      "author": "Michaz",
       "supportedTypes": [
-        "movie",
-        "tv"
+        "movie"
       ],
-      "filename": "providers/watch32.js",
+      "filename": "providers/einschalten.js",
       "enabled": true,
       "logo": "https://img.watch32.sx/xxrz/400x400/100/a9/5e/a95e15a880a9df3c045f6a5224daf576/a95e15a880a9df3c045f6a5224daf576.png",
       "contentLanguage": [
-        "en"
+        "de"
       ]
     },
     {
-      "id": "xprime",
-      "name": "Xprime",
-      "description": "Faster Streaming links from Xprime.tv",
+      "id": "hdflime",
+      "name": "HDFilme",
+      "description": "HD Movies & Series",
       "version": "1.0.0",
-      "author": "Nuvio Team",
+      "author": "Michaz",
       "supportedTypes": [
         "movie",
         "tv"
       ],
-      "filename": "providers/xprime.js",
+      "filename": "providers/hdflime.js",
       "enabled": true,
       "logo": "https://xprime.tv/favicon/favicon.ico",
       "contentLanguage": [
@@ -126,27 +128,26 @@
       ]
     },
     {
-      "id": "netmirror",
-      "name": "NetMirror",
-      "description": "Streaming links from netmirror. Automatically disabled on iOS due to compatibility issues.",
-      "version": "1.0.2",
-      "author": "Nuvio Team",
+      "id": "topstreamfilm",
+      "name": "Topstreamfilm",
+      "description": "Streambuster",
+      "version": "1.0.0",
+      "author": "Michaz",
       "supportedTypes": [
         "movie",
         "tv"
       ],
-      "filename": "providers/netmirror.js",
+      "filename": "providers/topstreamfilm.js",
       "enabled": true,
       "logo": "https://net2025.cc/favicon.ico",
       "contentLanguage": [
-        "en"
+        "de"
       ],
-      "disabledPlatforms": ["ios"]
     },
     {
-      "id": "vidsrc",
-      "name": "VidSrc",
-      "description": "High-quality M3U8 streaming links from VidSrc with multiple server support",
+      "id": "mediathekview",
+      "name": "MediathekView",
+      "description": "All in one Mediathek",
       "version": "1.0.0",
       "author": "Nuvio Team",
       "supportedTypes": [
@@ -157,26 +158,24 @@
       "enabled": true,
       "logo": "https://vidsrc.xyz/template/vidsrc-ico.png",
       "contentLanguage": [
-        "en"
+        "de"
       ]
     },
     {
-      "id": "streamflix",
-      "name": "StreamFlix",
-      "description": "Direct links via StreamFlix API",
+      "id": "netzkino",
+      "name": "Netzkino",
+      "description": "Trashbuster",
       "version": "1.0.0",
-      "author": "Nuvio Team",
+      "author": "Michaz",
       "supportedTypes": [
         "movie",
-        "tv"
       ],
-      "filename": "providers/streamflix.js",
+      "filename": "providers/netzkino.js",
       "enabled": true,
       "formats": ["mkv"],
       "logo": "/Assets/streamflix-1.png",
       "contentLanguage": [
-        "en",
-        "hin"
+        "de"
       ]
     }
   ]
