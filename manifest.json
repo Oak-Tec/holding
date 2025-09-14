@@ -5,75 +5,72 @@
     {
       
     
-      "id": "4khdhub",
-      "name": "4KHDHub",
-      "description": "4KHDHub direct links",
-      "version": "1.0.1",
-      "author": "Nuvio Team",
+      "id": "flimpalast",
+      "name": "Filmpalast",
+      "description": "Most Movies & Top Series",
+      "version": "1.0.0",
+      "author": "Michaz",
       "supportedTypes": [
         "movie",
         "tv"
       ],
-      "filename": "providers/4khdhub.js",
+      "filename": "providers/flimpalast.js",
       "enabled": true,
       "formats": ["mkv"],
       "logo": "https://4khdhub.fans/favicon.ico",
       "contentLanguage": [
-        "en"
+        "de"
       ]
     },
     {
-      "id": "uhdmovies",
-      "name": "UHDMovies",
-      "description": "High-quality movie and TV show streams from UHD Movies",
-      "version": "1.0.1",
-      "author": "Nuvio Team",
+      "id": "serienstream",
+      "name": "Serienstream",
+      "description": "Most Series",
+      "version": "1.0.0",
+      "author": "Michaz",
       "supportedTypes": [
-        "movie",
         "tv"
       ],
-      "filename": "providers/uhdmovies.js",
+      "filename": "providers/serienstream.js",
       "enabled": true,
       "formats": ["mkv"],
       "logo": "https://uhdmovies.cat/wp-content/uploads/2021/03/cropped-output-onlinepngtools-1-32x32.png",
       "contentLanguage": [
-        "en"
+        "de"
       ]
     },
     {
-      "id": "moviesmod",
-      "name": "MoviesMod",
-      "description": "Movie and TV show streams from MoviesMod with multiple quality options",
-      "version": "1.0.1",
+      "id": "aniworld",
+      "name": "Aniworld",
+      "description": "Anime Series",
+      "version": "1.0.0",
       "author": "Nuvio Team",
       "supportedTypes": [
-        "movie",
         "tv"
       ],
-      "filename": "providers/moviesmod.js",
+      "filename": "providers/aniworld.js",
       "enabled": true,
       "formats": ["mkv"],
       "logo": "https://moviesmod.tube/wp-content/uploads/2022/10/moviesmod.png",
       "contentLanguage": [
-        "en"
+        "dw"
       ]
     },
     {
-      "id": "hdrezka",
-      "name": "HDRezka",
-      "description": "High-quality movie and TV show streams",
+      "id": "mofilix-stream",
+      "name": "Moflix",
+      "description": "Most Popular Movies & Series",
       "version": "1.0.0",
-      "author": "Nuvio Team",
+      "author": "Michaz",
       "supportedTypes": [
         "movie",
         "tv"
       ],
-      "filename": "providers/hdrezka.js",
+      "filename": "providers/mofilix-stream.js",
       "enabled": true,
       "logo": "https://hdrezka.ag/templates/hdrezka/images/favicon.ico",
       "contentLanguage": [
-        "ru",
-        "en"
+        "de"
       ]
     },
     {
