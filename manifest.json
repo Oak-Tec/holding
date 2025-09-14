@@ -1,5 +1,5 @@
 {
-  "name": "Tapframe's Repo",
+  "name": "Michaz's Repo",
   "version": "1.0.0",
   "scrapers": [
     {
@@ -74,9 +74,9 @@
       ]
     },
     {
-      "id": "dahmermovies",
-      "name": "DahmerMovies",
-      "description": "High-quality movie and TV show streams from Dahmer Movies, Can be slow at times to fetch and stream. Only use if needed.",
+      "id": "megakino",
+      "name": "Megakino",
+      "description": "Cinema & Blockbuster",
       "version": "1.0.0",
       "author": "Nuvio Team",
       "supportedTypes": [
