@@ -86,7 +86,7 @@
         "movie",
         "tv"
       ],
-      "filename": "providers/dahmermovies.js",
+      "filename": "providers/megakino.js",
       "enabled": true,
       "formats": ["mkv"],
       "logo": "",
@@ -122,7 +122,7 @@
       ],
       "filename": "providers/hdflime.js",
       "enabled": true,
-      "logo": "",
+      "logo": "https://hdfilme.to/templates/hdfilme/images/logo-hdfilme.svg",
       "contentLanguage": [
         "en"
       ]
