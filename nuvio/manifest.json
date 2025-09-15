@@ -34,7 +34,7 @@
       "filename": "providers/serienstream.js",
       "enabled": true,
       "formats": ["mkv"],
-      "logo": "",
+      "logo": "https://cdn2.iconfinder.com/data/icons/metro-ui-icon-set/128/Windows_Media_Player_alt.png",
       "contentLanguage": [
         "de",
         "en"
